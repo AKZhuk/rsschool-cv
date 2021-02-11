@@ -1,4 +1,4 @@
-# Aliaksei ZHuk
+# Aliaksei Zhuk
 * email: lesha.zhuk@gmail.com
 * phone: +375336658772
 * [telegram](https://t.me/Who_is_John_Goltt)
@@ -6,7 +6,7 @@
 -----------------------------------
 
 * ## About me:
-    System analytic with three years expirience
+    I'm system analytic from Minsk, Belarus,  with three years experience.
 
 * ## Skills:
     * Ruby
