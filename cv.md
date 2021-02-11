@@ -1,16 +1,19 @@
 # Aliaksei ZHuk
-email: lesha.zhuk@gmail.com
-phone: +375336658772
+* email: lesha.zhuk@gmail.com
+* phone: +375336658772
+* [telegram](https://t.me/Who_is_John_Goltt)
 
 -----------------------------------
 
 * ## About me:
+    System analytic with three years expirience
 
 * ## Skills:
     * Ruby
     * HTML
     * CSS
     * Git
+    * Linux
 * ## Code example
 
 ```
@@ -24,8 +27,9 @@ def parse_info(product, page)
   end
 ```
 
-* ## Work experience *2017 - current time* BA in company "Top  Soft"
+* ## Work experience
+    *2017 - current time* | **System analytic**
 * ## Education
-        *2012 - 2017* **Belarussian state University of Informatics and Radioelectronics**
+    *2012 - 2017*  |  **Belarussian state University of Informatics and Radioelectronics**
 
 * ## English  - *A2*
