@@ -1,20 +1,22 @@
 # Aliaksei Zhuk
-* email: lesha.zhuk@gmail.com
-* phone: +375336658772
-* [telegram](https://t.me/Who_is_John_Goltt)
 
------------------------------------
+- email: lesha.zhuk@gmail.com
+- phone: +375336658772
+- [telegram](https://t.me/Who_is_John_Goltt)
 
-* ## About me:
-    I'm system analytic from Minsk, Belarus,  with three years experience.
+---
 
-* ## Skills:
-    * Ruby
-    * HTML
-    * CSS
-    * Git
-    * Linux
-* ## Code example
+- ## About me:
+
+  I'm system analytic from Minsk, Belarus, with three years experience.
+
+- ## Skills:
+  - SQL
+  - HTML
+  - CSS
+  - Git
+  - Linux
+- ## Code example
 
 ```
 def parse_info(product, page)
@@ -27,9 +29,10 @@ def parse_info(product, page)
   end
 ```
 
-* ## Work experience
-    *2017 - current time* | **System analytic**
-* ## Education
-    *2012 - 2017*  |  **Belarussian state University of Informatics and Radioelectronics**
+- ## Work experience
+  _2017 - current time_ | **System analytic**
+- ## Education
 
-* ## English  - *A2*
+  _2012 - 2017_ | **Belarussian state University of Informatics and Radioelectronics**
+
+- ## English - _A2_
