@@ -8,14 +8,16 @@
 
 - ## About me:
 
-  I'm system analytic from Minsk, Belarus, with three years experience.
+  I'm 26 yesrs old. Work as system analytic in Minsk, Belarus. I have three years experience.
 
 - ## Skills:
   - SQL
-  - HTML
-  - CSS
+  - FastReport
+  - Manual software testing
+  - ERP consulting
+  - HTML/CSS
   - Git
-  - Linux
+  - A little knowledge of: Ruby, JavaScript, Linux, VIP
 - ## Code example
 
 ```
@@ -35,4 +37,4 @@ def parse_info(product, page)
 
   _2012 - 2017_ | **Belarussian state University of Informatics and Radioelectronics**
 
-- ## English - _A2_
+- ## English - _A1_
