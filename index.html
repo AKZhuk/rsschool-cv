@@ -4,7 +4,111 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <link rel="stylesheet" href="assets/style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:wght@500&family=Roboto:ital,wght@1,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,700&display=swap" rel="stylesheet">
+    <title>HTML, CSS & Git Basics</title>
   </head>
-  <body></body>
+  <body>
+    <header>
+      <div id="head-cont" class="container">
+        <img class="avatar" src="assets/Z^uk1-min.jpg" alt="" />
+        <div class="title"></div>
+        <span><h1>Aliaksei Zhuk</h1></span>
+        <span><bold>email:</bold> lesha.zhuk@gmail.com      phone: +375336658772</span><br>
+        </div>
+        <hr>
+
+      </div>
+    </header>
+    <div id="main-cont" class="container">
+    <div class="left">
+      <section>
+        <h3>About me:</h3>
+        <p>
+          I'm 26 yesrs old. Work as system analytic in Minsk, Belarus. I have
+          three years experience.
+        </p>
+
+      </section>
+      <section>
+        <h3>Skills</h3>
+        <p><ul>
+            <li>SQL</li>
+            <li>FastReport</li>
+            <li>Manual software testing</li>
+            <li>HTML/CSS</li>
+            <li>Git</li>
+            <li>A little knowledge of: Ruby, JavaScript, Linux, VIP</li>
+        </ul></p>
+
+      </section>
+      <section>
+        <h3>Code example - <i>Ruby</i></h3>
+        <p>
+          <code>
+<pre>
+class ArticlesController < ApplicationControl
+    def new
+        @article = Article.new
+
+    def edit
+        @article = Article.find(params[:id])
+
+    def create
+          @query = Query.new(params.require(:article)
+            .permit(:name, :email, :organization, :text))
+          @query.save
+          redirect_to articles_path
+
+    def update
+        @article = Article.find(params[:id])
+          if @article.update(params.require(:article).
+            permit(:title, :text))
+            redirect_to @article
+          else
+            render 'edit'
+          end
+
+    def show
+        @article = Article.find(params[:id])
+
+    def index
+        @articles = Article.all
+
+    def destroy
+        @article = Article.find(params[:id])
+        @article.destroy
+        redirect_to articles_path
+    end
+end
+</pre>
+          </code
+          >
+        </p>
+      </section>
+    </div>
+    <div class="right">
+      <section>
+        <h3>Work experience</h3>
+        <p>
+           <b>2017 - current time</b>
+           <i>- System analytic</i>
+        </p>
+      </section>
+      <section>
+        <h3>Education</h3>
+        <p> <b>2012 - 2017</b>
+        <i>Belarussian state University of Informatics and Radioelectronics</i>
+        </p>
+      </section>
+      <section>
+        <h3>English</h3>
+        <p>A1</p>
+      </section>
+    </div>
+    </div>
+  </body>
 </html>
