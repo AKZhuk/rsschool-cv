@@ -11,7 +11,7 @@ img {
 }
 h1 {
   font-size: 4em;
-  color: whitesmoke;
+
   font-weight: 900;
   font-family: "Roboto", sans-serif;
 }
@@ -34,6 +34,7 @@ section {
 }
 #head-cont {
   background-color: rgb(17, 105, 142);
+  color: whitesmoke;
 }
 
 #main-cont {
@@ -61,11 +62,16 @@ pre {
   position: absolute;
   right: 250px;
   top: 110px;
-  border: 10px;
-  border-color: black;
-  border-style: solid;
 }
 
+.contacts {
+  position: absolute;
+  width: 400px;
+  height: 200px;
+  right: 50px;
+  bottom: 70px;
+  text-align: right;
+}
 .container {
   position: relative;
   width: 60%;
