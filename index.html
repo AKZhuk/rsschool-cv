@@ -6,14 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="assets/style.css" />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link rel="icon" href="assets/favicon.png" type="image/png" sizes="32x32" />
     <link
-      href="https://fonts.googleapis.com/css2?family=Newsreader:wght@500&family=Roboto:ital,wght@1,700&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Gothic+A1:wght@400;500;600;700;800&display=swap"
       rel="stylesheet"
     />
     <title>HTML, CSS & Git Basics</title>
@@ -21,96 +16,106 @@
 
   <body>
     <header>
-      <div id="head-cont" class="container">
-        <img class="avatar" src="assets/Zhuk1-min.jpg" alt="avatar" />
-        <div class="title"></div>
-        <h1>Aliaksei Zhuk</h1>
-        <div class="contacts">
-          <ul>
+      <div id="head-cont" class="wrapper">
+        <div>
+          <h1>ALIAKSEI ZHUK</h1>
+          <h2>Objective: Junior Front-End Developer</h2>
+          <ul class="contacts">
             <li>lesha.zhuk@gmail.com</li>
             <li>+375336658772</li>
+            <li>
+              <a href="http://linkedin.com/in/aliaksei-zhuk"
+                >linkedin.com/in/aliaksei-zhuk</a
+              >
+            </li>
+            <li>
+              <a href="https://github.com/AKZhuk">github.com/AKZhuk</a>
+            </li>
           </ul>
         </div>
+        <img class="avatar" src="assets/Zhuk1-min.jpg" alt="my avatar" />
       </div>
     </header>
-    <main id="main-cont" class="container">
-      <div class="left">
-        <article>
-          <h3>About me:</h3>
-          <p>
-            I'm 26 yesrs old. Work as system analytic in Minsk, Belarus. I have
-            three years experience. I have always been interested in programming
-            and want to change the field of activity to development
-          </p>
-        </article>
-        <section>
-          <h3>Skills</h3>
-          <ul>
-            <li>SQL</li>
-            <li>FastReport</li>
-            <li>Manual software testing</li>
-            <li>HTML/CSS</li>
-            <li>Git</li>
-            <li>A little knowledge of: Ruby, JavaScript, Linux, VIP</li>
-          </ul>
-        </section>
-        <section>
-          <h2>Code example - <i>JS</i></h2>
+    <main class="wrapper">
+      <article>
+        I'm 26 yesrs old. Work as system analytic in Minsk, Belarus. I have
+        three years experience. I have always been interested in programming and
+        want to change the field of activity to development
+      </article>
+      <div id="main-cont">
+        <div class="left">
+          <section>
+            <h3>SKILLS</h3>
+            <ul>
+              <li>SQL</li>
+              <li>FastReport</li>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>Git</li>
+              <li>A little knowledge of: Ruby, JavaScript, Linux</li>
+            </ul>
+          </section>
+          <section>
+            <h3>WORK EXPERIENCE</h3>
+            <p>
+              <b>"Top soft, LLC",</b><b class="time"> 2017 - current time</b>.
+              Current position is <i>System analyst</i>. Have experience in:
+              business process automation, data migration, EAM consulting
+              (including requirements analysis, education and technical
+              support).
+            </p>
+          </section>
+          <section>
+            <h3>CODE EXAMPLE</h3>
 
-          <pre>
-    <code>
-    function towelSort(matrix) {
-        let ArrayInLine = [];
-        switch (matrix) {
-            case undefined:
-                break;
-            default:
-                for (let i = 0; i &lt matrix.length; i++) {
-                    if (i % 2 != 0) {
-                        matrix[i].reverse();
-                    }
-                    for (let n = 0; n &lt matrix[i].length; n++) {
-                        ArrayInLine.push(matrix[i][n]);
-                    }
-                }
-                break;
+            <pre>
+    <code class="js">
+function towelSort(matrix) {
+  let ArrayInLine = [];
+  switch (matrix) {
+    case undefined:
+        break;
+    default:
+      for (let i = 0; i &lt; matrix.length; i++){
+        if (i % 2 != 0) {
+          matrix[i].reverse();
         }
-        return ArrayInLine;
-    };
+        for (let n = 0; n &lt; matrix[i].length;
+         n++){
+          ArrayInLine.push(matrix[i][n]);
+        }
+      }
+      break;
+  }
+  return ArrayInLine;
+};
 </code>
 </pre>
-        </section>
-      </div>
-      <div class="right">
-        <section>
-          <h3>Work experience</h3>
-          <p>
-            <b>2017 - current time</b>
+          </section>
+        </div>
+        <div class="right">
+          <section>
+            <h3>EDUCATION</h3>
+            <p>
+              <text class="sub-title"
+                >Belarussian state University of Informatics and
+                Radioelectronics,</text
+              >
+              <b class="time">2012 - 2017</b>
+              - information technology engineer
+            </p>
+          </section>
+          <section>
+            <h3>LANGUAGES</h3>
 
-            - Last four years work in "Top soft, LLC". Current position is
-            <i>System analyst</i>. Have experience in: business process
-            automation, data migration, EAM consulting (including requirements
-            analysis, education and technical support).
-          </p>
-        </section>
-        <section>
-          <h3>Education</h3>
-          <p>
-            <b>2012 - 2017</b>
-            <i
-              >Belarussian state University of Informatics and
-              Radioelectronics</i
-            >
-            - information technology engineer
-          </p>
-        </section>
-        <section>
-          <h3>English</h3>
-          <h5>A1</h5>
-          <p>Currently I am studying with a teacher in order to up my level</p>
-        </section>
+            <p>
+              <text class="sub-title">English - A1.</text> Currently I am
+              studying with a teacher in order to up my level
+            </p>
+          </section>
+        </div>
       </div>
     </main>
-    <footer class="container"></footer>
+    <footer id="footer" class="wrapper">Task: HTML, CSS & Git Basics</footer>
   </body>
 </html>
